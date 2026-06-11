@@ -1,0 +1,13 @@
+SELECT name, database_role, open_mode
+FROM v$database;
+
+*******************************************
+
+SELECT 
+    INSTANCE_NAME,
+    STATUS,
+    DATABASE_STATUS,
+    DATABASE_ROLE
+FROM 
+    V$INSTANCE, 
+    V$DATABASE;
